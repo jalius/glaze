@@ -4,7 +4,7 @@ Glaze has full support `std::variant` when writing, and read support when either
 
 ## Basic Types
 
-Types can be auto-deduced if the variant contains at most one type matching each of the fundamental JSON types of [string, number, object, array boolean] or multiple object types. `std::variant<double, std::string>` could be auto deduced but `std::variant<double, float>` cannot be.
+Types can be auto-deduced if the variant contains at most one type matching each of the fundamental JSON types of [string, number, object, array, boolean] or multiple object types. `std::variant<double, std::string>` could be auto deduced but `std::variant<double, float>` cannot be.
 
 Write example:
 ```c++
